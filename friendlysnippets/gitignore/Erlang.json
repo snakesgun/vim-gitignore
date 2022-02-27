@@ -1,0 +1,9 @@
+{
+  "Erlang": {
+    "perfix": "Erlang",
+    "body": [
+      ".eunit\n*.o\n*.beam\n*.plt\nerl_crash.dump\n.concrete/DEV_MODE\n\n# rebar 2.x\n.rebar\nrel/example_project\nebin/*.beam\ndeps\n\n# rebar 3\n.rebar3\n_build/\n_checkouts/\n"
+    ],
+    "description": "Erlang Gitignore Templat"
+  }
+}

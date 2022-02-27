@@ -1,0 +1,9 @@
+{
+  "Gradle": {
+    "perfix": "Gradle",
+    "body": [
+      ".gradle\n**/build/\n!src/**/build/\n\n# Ignore Gradle GUI config\ngradle-app.setting\n\n# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)\n!gradle-wrapper.jar\n\n# Avoid ignore Gradle wrappper properties\n!gradle-wrapper.properties\n\n# Cache of project\n.gradletasknamecache\n\n# Eclipse Gradle plugin generated files\n# Eclipse Core\n.project\n# JDT-specific (Eclipse Java Development Tools)\n.classpath\n"
+    ],
+    "description": "Gradle Gitignore Templat"
+  }
+}

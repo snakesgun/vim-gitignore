@@ -1,0 +1,9 @@
+{
+  "ExtJs": {
+    "perfix": "ExtJs",
+    "body": [
+      ".architect\nbootstrap.css\nbootstrap.js\nbootstrap.json\nbootstrap.jsonp\nbuild/\nclassic.json\nclassic.jsonp\next/\nmodern.json\nmodern.jsonp\nresources/sass/.sass-cache/\nresources/.arch-internal-preview.css\n.arch-internal-preview.css\n"
+    ],
+    "description": "ExtJs Gitignore Templat"
+  }
+}

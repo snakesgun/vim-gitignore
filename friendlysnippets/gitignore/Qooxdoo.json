@@ -1,0 +1,9 @@
+{
+  "Qooxdoo": {
+    "perfix": "Qooxdoo",
+    "body": [
+      "cache\ncache-downloads\ninspector\napi\nsource/inspector.html\n"
+    ],
+    "description": "Qooxdoo Gitignore Templat"
+  }
+}

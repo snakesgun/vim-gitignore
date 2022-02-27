@@ -1,0 +1,9 @@
+{
+  "Archives": {
+    "perfix": "Archives",
+    "body": [
+      "# It's better to unpack these files and commit the raw source because\n# git has its own built in compression methods.\n*.7z\n*.jar\n*.rar\n*.zip\n*.gz\n*.gzip\n*.tgz\n*.bzip\n*.bzip2\n*.bz2\n*.xz\n*.lzma\n*.cab\n*.xar\n\n# Packing-only formats\n*.iso\n*.tar\n\n# Package management formats\n*.dmg\n*.xpi\n*.gem\n*.egg\n*.deb\n*.rpm\n*.msi\n*.msm\n*.msp\n*.txz\n"
+    ],
+    "description": "Archives Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Stata": {
+    "perfix": "Stata",
+    "body": [
+      "# .gitignore file for git projects containing Stata files\n# Commercial statistical software: http://www.stata.com\n\n# Stata dataset and output files\n*.dta\n*.gph\n*.log\n*.smcl\n*.stpr\n*.stsem\n\n# Graphic export files from Stata\n# Stata command graph export: http://www.stata.com/manuals14/g-2graphexport.pdf\n#\n# You may add graphic export files to your .gitignore. However you should be\n# aware that this will exclude all image files from this main directory\n# and subdirectories.\n# *.ps\n# *.eps\n# *.wmf\n# *.emf\n# *.pdf\n# *.png\n# *.tif\n"
+    ],
+    "description": "Stata Gitignore Templat"
+  }
+}

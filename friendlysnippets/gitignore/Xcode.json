@@ -1,0 +1,9 @@
+{
+  "Xcode": {
+    "perfix": "Xcode",
+    "body": [
+      "## User settings\nxcuserdata/\n\n## Xcode 8 and earlier\n*.xcscmblueprint\n*.xccheckout\n"
+    ],
+    "description": "Xcode Gitignore Templat"
+  }
+}

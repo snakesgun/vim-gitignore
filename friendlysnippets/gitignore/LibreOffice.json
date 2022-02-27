@@ -1,0 +1,9 @@
+{
+  "LibreOffice": {
+    "perfix": "LibreOffice",
+    "body": [
+      "# LibreOffice locks\n.~lock.*#\n"
+    ],
+    "description": "LibreOffice Gitignore Templat"
+  }
+}

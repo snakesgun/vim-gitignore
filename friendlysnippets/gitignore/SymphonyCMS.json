@@ -1,0 +1,9 @@
+{
+  "SymphonyCMS": {
+    "perfix": "SymphonyCMS",
+    "body": [
+      "manifest/cache/\nmanifest/logs/\nmanifest/tmp/\nsymphony/\nworkspace/uploads/\ninstall-log.txt\n"
+    ],
+    "description": "SymphonyCMS Gitignore Templat"
+  }
+}

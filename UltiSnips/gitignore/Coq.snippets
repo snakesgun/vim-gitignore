@@ -3,6 +3,7 @@ priority -50
 snippet Coq "Coq Gitignore Template"
 ### Coq ###
 .*.aux
+.*.d
 *.a
 *.cma
 *.cmi
@@ -13,6 +14,7 @@ snippet Coq "Coq Gitignore Template"
 *.glob
 *.ml.d
 *.ml4.d
+*.mlg.d
 *.mli.d
 *.mllib.d
 *.mlpack.d
@@ -21,7 +23,9 @@ snippet Coq "Coq Gitignore Template"
 *.v.d
 *.vio
 *.vo
-.coq-native/
+*.vok
+*.vos
+.coq-native
 .csdp.cache
 .lia.cache
 .nia.cache
@@ -32,5 +36,16 @@ lia.cache
 nia.cache
 nlia.cache
 nra.cache
+native_compute_profile_*.data
+
+# generated timing files
+*.timing.diff
+*.v.after-timing
+*.v.before-timing
+*.v.timing
+time-of-build-after.log
+time-of-build-before.log
+time-of-build-both.log
+time-of-build-pretty.log
 $0
 endsnippet

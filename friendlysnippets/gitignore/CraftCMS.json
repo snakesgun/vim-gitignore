@@ -1,0 +1,9 @@
+{
+  "CraftCMS": {
+    "perfix": "CraftCMS",
+    "body": [
+      "# Craft 2 Storage (https://craftcms.com/support/craft-storage-gitignore)\n# not necessary for Craft 3 (https://github.com/craftcms/craft/issues/26)\n/craft/storage/*\n!/craft/storage/rebrand\n"
+    ],
+    "description": "CraftCMS Gitignore Templat"
+  }
+}

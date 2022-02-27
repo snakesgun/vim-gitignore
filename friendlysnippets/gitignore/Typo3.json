@@ -1,0 +1,9 @@
+{
+  "Typo3": {
+    "perfix": "Typo3",
+    "body": [
+      "## TYPO3 v6.2\n# Ignore several upload and file directories.\n/fileadmin/user_upload/\n/fileadmin/_temp_/\n/fileadmin/_processed_/\n/uploads/\n# Ignore cache\n/typo3conf/temp_CACHED*\n/typo3conf/temp_fieldInfo.php\n/typo3conf/deprecation_*.log\n/typo3conf/ENABLE_INSTALL_TOOL\n/typo3conf/realurl_autoconf.php\n/FIRST_INSTALL\n# Ignore system folders, you should have them symlinked.\n# If not comment out the following entries.\n/typo3\n/typo3_src\n/typo3_src-*\n/Packages\n/.htaccess\n/index.php\n# Ignore temp directory.\n/typo3temp/\n"
+    ],
+    "description": "Typo3 Gitignore Templat"
+  }
+}

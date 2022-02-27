@@ -1,0 +1,9 @@
+{
+  "CVS": {
+    "perfix": "CVS",
+    "body": [
+      "/CVS/*\n**/CVS/*\n.cvsignore\n*/.cvsignore\n"
+    ],
+    "description": "CVS Gitignore Templat"
+  }
+}

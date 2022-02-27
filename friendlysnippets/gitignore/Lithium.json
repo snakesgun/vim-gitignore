@@ -1,0 +1,9 @@
+{
+  "Lithium": {
+    "perfix": "Lithium",
+    "body": [
+      "libraries/*\nresources/tmp/*\n"
+    ],
+    "description": "Lithium Gitignore Templat"
+  }
+}

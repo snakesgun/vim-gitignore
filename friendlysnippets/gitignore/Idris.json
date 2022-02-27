@@ -1,0 +1,9 @@
+{
+  "Idris": {
+    "perfix": "Idris",
+    "body": [
+      "# Idris 2\n*.ttc\n*.ttm\n\n# Idris 1\n*.ibc\n*.o\n"
+    ],
+    "description": "Idris Gitignore Templat"
+  }
+}

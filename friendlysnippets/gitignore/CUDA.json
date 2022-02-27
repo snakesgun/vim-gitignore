@@ -1,0 +1,9 @@
+{
+  "CUDA": {
+    "perfix": "CUDA",
+    "body": [
+      "*.i\n*.ii\n*.gpu\n*.ptx\n*.cubin\n*.fatbin\n"
+    ],
+    "description": "CUDA Gitignore Templat"
+  }
+}

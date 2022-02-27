@@ -1,0 +1,9 @@
+{
+  "BricxCC": {
+    "perfix": "BricxCC",
+    "body": [
+      "# Bricx Command Center IDE\n# http://bricxcc.sourceforge.net\n*.bak\n*.sym\n"
+    ],
+    "description": "BricxCC Gitignore Templat"
+  }
+}

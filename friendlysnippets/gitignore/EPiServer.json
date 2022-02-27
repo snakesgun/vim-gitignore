@@ -1,0 +1,9 @@
+{
+  "EPiServer": {
+    "perfix": "EPiServer",
+    "body": [
+      "######################\n## EPiServer Files\n######################\n*License.config\n"
+    ],
+    "description": "EPiServer Gitignore Templat"
+  }
+}

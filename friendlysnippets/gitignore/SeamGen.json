@@ -1,0 +1,9 @@
+{
+  "SeamGen": {
+    "perfix": "SeamGen",
+    "body": [
+      "/bootstrap/data\n/bootstrap/tmp\n/classes/\n/dist/\n/exploded-archives/\n/test-build/\n/test-output/\n/test-report/\n/target/\ntemp-testng-customsuite.xml\n\n# based on http://stackoverflow.com/a/8865858/422476 I am removing inline comments\n\n#/classes/  \t\t              all class files\n#/dist/                       contains generated war files for deployment\n#/exploded-archives/\t\t      war content generation during deploy (or explode)\n#/test-build/                 test compilation (ant target for Seam)\n#/test-output/                test results\n#/test-report/                test report generation for, e.g., Hudson\n#/target/                     maven output folder\n#temp-testng-customsuite.xml\tgenerated when running test cases under Eclipse\n\n# Thanks to @VonC and @kraftan for their helpful answers on a related question\n# on StackOverflow.com:\n# http://stackoverflow.com/questions/4176687\n# /what-is-the-recommended-source-control-ignore-pattern-for-seam-projects\n"
+    ],
+    "description": "SeamGen Gitignore Templat"
+  }
+}

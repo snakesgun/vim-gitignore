@@ -1,0 +1,9 @@
+{
+  "Opa": {
+    "perfix": "Opa",
+    "body": [
+      "_build\n_tracks\n\nopa-debug-js\n\n*.opp\n*.opx\n*.opx.broken\n*.dump\n*.api\n*.api-txt\n*.exe\n*.log\n"
+    ],
+    "description": "Opa Gitignore Templat"
+  }
+}

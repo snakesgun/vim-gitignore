@@ -1,0 +1,9 @@
+{
+  "CMake": {
+    "perfix": "CMake",
+    "body": [
+      "CMakeLists.txt.user\nCMakeCache.txt\nCMakeFiles\nCMakeScripts\nTesting\nMakefile\ncmake_install.cmake\ninstall_manifest.txt\ncompile_commands.json\nCTestTestfile.cmake\n_deps\n"
+    ],
+    "description": "CMake Gitignore Templat"
+  }
+}

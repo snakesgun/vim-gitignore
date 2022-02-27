@@ -1,0 +1,9 @@
+{
+  "Android": {
+    "perfix": "Android",
+    "body": [
+      "# Gradle files\n.gradle/\nbuild/\n\n# Local configuration file (sdk path, etc)\nlocal.properties\n\n# Log/OS Files\n*.log\n\n# Android Studio generated files and folders\ncaptures/\n.externalNativeBuild/\n.cxx/\n*.apk\noutput.json\n\n# IntelliJ\n*.iml\n.idea/\nmisc.xml\ndeploymentTargetDropDown.xml\nrender.experimental.xml\n\n# Keystore files\n*.jks\n*.keystore\n\n# Google Services (e.g. APIs or Firebase)\ngoogle-services.json\n\n# Android Profiling\n*.hprof\n"
+    ],
+    "description": "Android Gitignore Templat"
+  }
+}

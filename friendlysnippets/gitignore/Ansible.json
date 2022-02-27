@@ -1,0 +1,9 @@
+{
+  "Ansible": {
+    "perfix": "Ansible",
+    "body": [
+      "*.retry\n"
+    ],
+    "description": "Ansible Gitignore Templat"
+  }
+}

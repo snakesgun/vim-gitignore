@@ -1,0 +1,9 @@
+{
+  "CodeKit": {
+    "perfix": "CodeKit",
+    "body": [
+      "# General CodeKit files to ignore\nconfig.codekit\nconfig.codekit3\n/min\n"
+    ],
+    "description": "CodeKit Gitignore Templat"
+  }
+}

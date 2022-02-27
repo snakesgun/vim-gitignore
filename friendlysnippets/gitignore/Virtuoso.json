@@ -1,0 +1,9 @@
+{
+  "Virtuoso": {
+    "perfix": "Virtuoso",
+    "body": [
+      "# Gitignore for Cadence Virtuoso\n################################################################\n\n# Log files\n*.log\npanic*.log.*\n\n# OpenAccess database lock files\n*.cdslck*\n\n# Run directories for layout vs. schematic and design rule check\nlvsRunDir/*\ndrcRunDir/*\n\n# Abstract generation tool\nabstract.log*\nabstract.record*\n\n"
+    ],
+    "description": "Virtuoso Gitignore Templat"
+  }
+}

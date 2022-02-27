@@ -1,0 +1,9 @@
+{
+  "Redis": {
+    "perfix": "Redis",
+    "body": [
+      "# Ignore redis binary dump (dump.rdb) files\n\n*.rdb\n"
+    ],
+    "description": "Redis Gitignore Templat"
+  }
+}

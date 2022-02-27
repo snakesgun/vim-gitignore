@@ -1,0 +1,9 @@
+{
+  "GWT": {
+    "perfix": "GWT",
+    "body": [
+      "*.class\n\n# Package Files #\n*.jar\n*.war\n\n# gwt caches and compiled units #\nwar/gwt_bree/\ngwt-unitCache/\n\n# boilerplate generated classes #\n.apt_generated/\n\n# more caches and things from deploy #\nwar/WEB-INF/deploy/\nwar/WEB-INF/classes/\n\n#compilation logs\n.gwt/\n\n#gwt junit compilation files\nwww-test/\n\n#old GWT (1.5) created this dir\n.gwt-tmp/\n"
+    ],
+    "description": "GWT Gitignore Templat"
+  }
+}

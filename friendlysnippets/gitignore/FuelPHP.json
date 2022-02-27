@@ -1,0 +1,9 @@
+{
+  "FuelPHP": {
+    "perfix": "FuelPHP",
+    "body": [
+      "# the composer package lock file and install directory\n# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file\n# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file\n# /composer.lock\n/fuel/vendor\n\n# the fuelphp document\n/docs/\n\n# you may install these packages with `oil package`.\n# http://fuelphp.com/docs/packages/oil/package.html\n# /fuel/packages/auth/\n# /fuel/packages/email/\n# /fuel/packages/oil/\n# /fuel/packages/orm/\n# /fuel/packages/parser/\n\n# dynamically generated files\n/fuel/app/logs/*/*/*\n/fuel/app/cache/*/*\n/fuel/app/config/crypt.php\n"
+    ],
+    "description": "FuelPHP Gitignore Templat"
+  }
+}

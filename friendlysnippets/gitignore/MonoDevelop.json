@@ -1,0 +1,9 @@
+{
+  "MonoDevelop": {
+    "perfix": "MonoDevelop",
+    "body": [
+      "#User Specific\n*.userprefs\n*.usertasks\n\n#Mono Project Files\n*.pidb\n*.resources\ntest-results/\n"
+    ],
+    "description": "MonoDevelop Gitignore Templat"
+  }
+}

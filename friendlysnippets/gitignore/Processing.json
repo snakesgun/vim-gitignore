@@ -1,0 +1,9 @@
+{
+  "Processing": {
+    "perfix": "Processing",
+    "body": [
+      ".DS_Store\napplet\napplication.linux-arm64\napplication.linux-armv6hf\napplication.linux32\napplication.linux64\napplication.windows32\napplication.windows64\napplication.macosx\nout\n"
+    ],
+    "description": "Processing Gitignore Templat"
+  }
+}

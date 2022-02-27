@@ -1,0 +1,9 @@
+{
+  "AppEngine": {
+    "perfix": "AppEngine",
+    "body": [
+      "# Google App Engine generated folder\nappengine-generated/\n"
+    ],
+    "description": "AppEngine Gitignore Templat"
+  }
+}

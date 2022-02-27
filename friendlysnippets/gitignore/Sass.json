@@ -1,0 +1,9 @@
+{
+  "Sass": {
+    "perfix": "Sass",
+    "body": [
+      ".sass-cache/\n*.css.map\n*.sass.map\n*.scss.map\n"
+    ],
+    "description": "Sass Gitignore Templat"
+  }
+}

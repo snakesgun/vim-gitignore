@@ -1,0 +1,9 @@
+{
+  "Backup": {
+    "perfix": "Backup",
+    "body": [
+      "*.bak\n*.gho\n*.ori\n*.orig\n*.tmp\n"
+    ],
+    "description": "Backup Gitignore Templat"
+  }
+}

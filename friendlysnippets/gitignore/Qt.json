@@ -1,0 +1,9 @@
+{
+  "Qt": {
+    "perfix": "Qt",
+    "body": [
+      "# C++ objects and libs\n*.slo\n*.lo\n*.o\n*.a\n*.la\n*.lai\n*.so\n*.so.*\n*.dll\n*.dylib\n\n# Qt-es\nobject_script.*.Release\nobject_script.*.Debug\n*_plugin_import.cpp\n/.qmake.cache\n/.qmake.stash\n*.pro.user\n*.pro.user.*\n*.qbs.user\n*.qbs.user.*\n*.moc\nmoc_*.cpp\nmoc_*.h\nqrc_*.cpp\nui_*.h\n*.qmlc\n*.jsc\nMakefile*\n*build-*\n*.qm\n*.prl\n\n# Qt unit tests\ntarget_wrapper.*\n\n# QtCreator\n*.autosave\n\n# QtCreator Qml\n*.qmlproject.user\n*.qmlproject.user.*\n\n# QtCreator CMake\nCMakeLists.txt.user*\n\n# QtCreator 4.8< compilation database\ncompile_commands.json\n\n# QtCreator local machine specific files for imported projects\n*creator.user*\n\n*_qmlcache.qrc\n"
+    ],
+    "description": "Qt Gitignore Templat"
+  }
+}

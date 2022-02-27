@@ -1,0 +1,9 @@
+{
+  "GitBook": {
+    "perfix": "GitBook",
+    "body": [
+      "# Node rules:\n## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)\n.grunt\n\n## Dependency directory\n## Commenting this out is preferred by some people, see\n## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git\nnode_modules\n\n# Book build output\n_book\n\n# eBook build output\n*.epub\n*.mobi\n*.pdf\n"
+    ],
+    "description": "GitBook Gitignore Templat"
+  }
+}

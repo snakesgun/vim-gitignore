@@ -1,0 +1,9 @@
+{
+  "Mercurial": {
+    "perfix": "Mercurial",
+    "body": [
+      ".hg/\n.hgignore\n.hgsigs\n.hgsub\n.hgsubstate\n.hgtags\n"
+    ],
+    "description": "Mercurial Gitignore Templat"
+  }
+}

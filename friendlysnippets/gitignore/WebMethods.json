@@ -1,0 +1,9 @@
+{
+  "WebMethods": {
+    "perfix": "WebMethods",
+    "body": [
+      "**/IntegrationServer/datastore/\n**/IntegrationServer/db/\n**/IntegrationServer/DocumentStore/\n**/IntegrationServer/lib/\n**/IntegrationServer/logs/\n**/IntegrationServer/replicate/\n**/IntegrationServer/sdk/\n**/IntegrationServer/support/\n**/IntegrationServer/update/\n**/IntegrationServer/userFtpRoot/\n**/IntegrationServer/web/\n**/IntegrationServer/WmRepository4/\n**/IntegrationServer/XAStore/\n**/IntegrationServer/packages/Wm*/\n"
+    ],
+    "description": "WebMethods Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Lilypond": {
+    "perfix": "Lilypond",
+    "body": [
+      "*.pdf\n*.ps\n*.midi\n*.mid\n*.log\n*~\n"
+    ],
+    "description": "Lilypond Gitignore Templat"
+  }
+}

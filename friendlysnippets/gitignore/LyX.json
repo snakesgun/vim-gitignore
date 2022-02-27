@@ -1,0 +1,9 @@
+{
+  "LyX": {
+    "perfix": "LyX",
+    "body": [
+      "# Ignore LyX backup and autosave files\n# http://www.lyx.org/\n*.lyx~\n*.lyx#\n"
+    ],
+    "description": "LyX Gitignore Templat"
+  }
+}

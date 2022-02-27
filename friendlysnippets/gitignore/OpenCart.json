@@ -1,0 +1,9 @@
+{
+  "OpenCart": {
+    "perfix": "OpenCart",
+    "body": [
+      ".htaccess\n/config.php\nadmin/config.php\n\n!index.html\n\ndownload/\nimage/data/\nimage/cache/\nsystem/cache/\nsystem/logs/\n\nsystem/storage/\n\n# vQmod log files\nvqmod/logs/*\n# vQmod cache files\nvqmod/vqcache/*\nvqmod/checked.cache\nvqmod/mods.cache\n"
+    ],
+    "description": "OpenCart Gitignore Templat"
+  }
+}

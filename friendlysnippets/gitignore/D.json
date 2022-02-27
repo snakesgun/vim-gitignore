@@ -1,0 +1,9 @@
+{
+  "D": {
+    "perfix": "D",
+    "body": [
+      "# Compiled Object files\n*.o\n*.obj\n\n# Compiled Dynamic libraries\n*.so\n*.dylib\n*.dll\n\n# Compiled Static libraries\n*.a\n*.lib\n\n# Executables\n*.exe\n\n# DUB\n.dub\ndocs.json\n__dummy.html\ndocs/\n\n# Code coverage\n*.lst\n"
+    ],
+    "description": "D Gitignore Templat"
+  }
+}

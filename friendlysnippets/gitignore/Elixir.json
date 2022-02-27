@@ -1,0 +1,9 @@
+{
+  "Elixir": {
+    "perfix": "Elixir",
+    "body": [
+      "/_build\n/cover\n/deps\n/doc\n/.fetch\nerl_crash.dump\n*.ez\n*.beam\n/config/*.secret.exs\n.elixir_ls/\n"
+    ],
+    "description": "Elixir Gitignore Templat"
+  }
+}

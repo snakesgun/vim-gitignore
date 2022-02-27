@@ -1,0 +1,9 @@
+{
+  "Anjuta": {
+    "perfix": "Anjuta",
+    "body": [
+      "# Local configuration folder and symbol database\n/.anjuta/\n/.anjuta_sym_db.db\n"
+    ],
+    "description": "Anjuta Gitignore Templat"
+  }
+}

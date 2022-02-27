@@ -1,7 +1,6 @@
 snippet Qt Gitignore Template
         ### Qt ###
         # C++ objects and libs
-        
         *.slo
         *.lo
         *.o
@@ -9,11 +8,11 @@ snippet Qt Gitignore Template
         *.la
         *.lai
         *.so
+        *.so.*
         *.dll
         *.dylib
         
         # Qt-es
-        
         object_script.*.Release
         object_script.*.Debug
         *_plugin_import.cpp
@@ -28,23 +27,31 @@ snippet Qt Gitignore Template
         moc_*.h
         qrc_*.cpp
         ui_*.h
+        *.qmlc
+        *.jsc
         Makefile*
         *build-*
-        
+        *.qm
+        *.prl
         
         # Qt unit tests
         target_wrapper.*
         
-        
         # QtCreator
-        
         *.autosave
         
-        # QtCtreator Qml
+        # QtCreator Qml
         *.qmlproject.user
         *.qmlproject.user.*
         
-        # QtCtreator CMake
+        # QtCreator CMake
         CMakeLists.txt.user*
         
+        # QtCreator 4.8< compilation database
+        compile_commands.json
+        
+        # QtCreator local machine specific files for imported projects
+        *creator.user*
+        
+        *_qmlcache.qrc
         ${0}

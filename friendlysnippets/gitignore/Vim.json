@@ -1,0 +1,9 @@
+{
+  "Vim": {
+    "perfix": "Vim",
+    "body": [
+      "# Swap\n[._]*.s[a-v][a-z]\n!*.svg  # comment out if you don't need vector files\n[._]*.sw[a-p]\n[._]s[a-rt-v][a-z]\n[._]ss[a-gi-z]\n[._]sw[a-p]\n\n# Session\nSession.vim\nSessionx.vim\n\n# Temporary\n.netrwhist\n*~\n# Auto-generated tag files\ntags\n# Persistent undo\n[._]*.un~\n"
+    ],
+    "description": "Vim Gitignore Templat"
+  }
+}

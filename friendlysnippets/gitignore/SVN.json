@@ -1,0 +1,9 @@
+{
+  "SVN": {
+    "perfix": "SVN",
+    "body": [
+      ".svn/\n"
+    ],
+    "description": "SVN Gitignore Templat"
+  }
+}

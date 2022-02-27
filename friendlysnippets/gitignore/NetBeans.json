@@ -1,0 +1,9 @@
+{
+  "NetBeans": {
+    "perfix": "NetBeans",
+    "body": [
+      "**/nbproject/private/\n**/nbproject/Makefile-*.mk\n**/nbproject/Package-*.bash\nbuild/\nnbbuild/\ndist/\nnbdist/\n.nb-gradle/\n"
+    ],
+    "description": "NetBeans Gitignore Templat"
+  }
+}

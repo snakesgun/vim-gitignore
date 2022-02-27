@@ -1,0 +1,9 @@
+{
+  "Ninja": {
+    "perfix": "Ninja",
+    "body": [
+      ".ninja_deps\n.ninja_log\n"
+    ],
+    "description": "Ninja Gitignore Templat"
+  }
+}

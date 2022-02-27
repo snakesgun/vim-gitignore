@@ -1,0 +1,9 @@
+{
+  "FlaxEngine": {
+    "perfix": "FlaxEngine",
+    "body": [
+      "# Ignore Flax project files\nBinaries/\nCache/\nLogs/\nOutput/\nScreenshots/\n*.HotReload.*\n\n# Ignore Visual Studio project files (generated locally)\n*.csproj\n*.sln\n\n# Ignore thumbnails created by Windows\nThumbs.db\n\n# Ignore files built by Visual Studio\n*.obj\n*.exe\n*.pdb\n*.user\n*.aps\n*.pch\n*.vspscc\n*_i.c\n*_p.c\n*.ncb\n*.suo\n*.tlb\n*.tlh\n*.bak\n*.cache\n*.ilk\n*.log\n[Bb]in\n[Dd]ebug*/\n*.lib\n*.sbr\nobj/\n[Rr]elease*/\n_ReSharper*/\n[Tt]est[Rr]esult*\n.vs/\n\n# Ignore Nuget packages folder\npackages/\n"
+    ],
+    "description": "FlaxEngine Gitignore Templat"
+  }
+}

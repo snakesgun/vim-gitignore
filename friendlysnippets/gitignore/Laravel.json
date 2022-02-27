@@ -1,0 +1,9 @@
+{
+  "Laravel": {
+    "perfix": "Laravel",
+    "body": [
+      "/vendor/\nnode_modules/\nnpm-debug.log\nyarn-error.log\n\n# Laravel 4 specific\nbootstrap/compiled.php\napp/storage/\n\n# Laravel 5 & Lumen specific\npublic/storage\npublic/hot\n\n# Laravel 5 & Lumen specific with changed public path\npublic_html/storage\npublic_html/hot\n\nstorage/*.key\n.env\nHomestead.yaml\nHomestead.json\n/.vagrant\n.phpunit.result.cache\n"
+    ],
+    "description": "Laravel Gitignore Templat"
+  }
+}

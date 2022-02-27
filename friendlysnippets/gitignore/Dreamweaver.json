@@ -1,0 +1,9 @@
+{
+  "Dreamweaver": {
+    "perfix": "Dreamweaver",
+    "body": [
+      "# DW Dreamweaver added files\n_notes\n_compareTemp\nconfigs/\ndwsync.xml\ndw_php_codehinting.config\n*.mno\n"
+    ],
+    "description": "Dreamweaver Gitignore Templat"
+  }
+}

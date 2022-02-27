@@ -1,0 +1,9 @@
+{
+  "Raku": {
+    "perfix": "Raku",
+    "body": [
+      "# Gitignore for Raku (https://raku.org)\n# As part of https://github.com/github/gitignore\n\n# precompiled files\n.precomp\nlib/.precomp\n\n"
+    ],
+    "description": "Raku Gitignore Templat"
+  }
+}

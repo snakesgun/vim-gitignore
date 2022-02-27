@@ -1,0 +1,9 @@
+{
+  "Drupal": {
+    "perfix": "Drupal",
+    "body": [
+      "# gitignore template for Drupal 8 projects\n#\n# earlier versions of Drupal are tracked in `community/PHP/`\n#\n# follows official upstream conventions:\n# https://www.drupal.org/docs/develop/using-composer\n\n# Ignore configuration files that may contain sensitive information\n/web/sites/*/*settings*.php\n/web/sites/*/*services*.yml\n\n# Ignore paths that may contain user-generated content\n/web/sites/*/files\n/web/sites/*/public\n/web/sites/*/private\n/web/sites/*/files-public\n/web/sites/*/files-private\n\n# Ignore paths that may contain temporary files\n/web/sites/*/translations\n/web/sites/*/tmp\n/web/sites/*/cache\n\n# Ignore drupal core (if not versioning drupal sources)\n/web/vendor\n/web/core\n/web/modules/README.txt\n/web/profiles/README.txt\n/web/sites/development.services.yml\n/web/sites/example.settings.local.php\n/web/sites/example.sites.php\n/web/sites/README.txt\n/web/themes/README.txt\n/web/.csslintrc\n/web/.editorconfig\n/web/.eslintignore\n/web/.eslintrc.json\n/web/.gitattributes\n/web/.htaccess\n/web/.ht.router.php\n/web/autoload.php\n/web/composer.json\n/web/composer.lock\n/web/example.gitignore\n/web/index.php\n/web/INSTALL.txt\n/web/LICENSE.txt\n/web/README.txt\n/web/robots.txt\n/web/update.php\n/web/web.config\n\n# Ignore vendor dependencies and scripts\n/vendor\n/composer.phar\n/composer\n/robo.phar\n/robo\n/drush.phar\n/drush\n/drupal.phar\n/drupal\n"
+    ],
+    "description": "Drupal Gitignore Templat"
+  }
+}

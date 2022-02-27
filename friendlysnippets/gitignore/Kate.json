@@ -1,0 +1,9 @@
+{
+  "Kate": {
+    "perfix": "Kate",
+    "body": [
+      "# Swap Files #\n.*.kate-swp\n.swp.*\n"
+    ],
+    "description": "Kate Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Patch": {
+    "perfix": "Patch",
+    "body": [
+      "*.orig\n*.rej\n"
+    ],
+    "description": "Patch Gitignore Templat"
+  }
+}

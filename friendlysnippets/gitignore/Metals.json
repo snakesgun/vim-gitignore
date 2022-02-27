@@ -1,0 +1,9 @@
+{
+  "Metals": {
+    "perfix": "Metals",
+    "body": [
+      " # Generated Metals (Scala Language Server) files\n # Reference: https://scalameta.org/metals/\n.metals/\n.bloop/\nproject/metals.sbt\n"
+    ],
+    "description": "Metals Gitignore Templat"
+  }
+}

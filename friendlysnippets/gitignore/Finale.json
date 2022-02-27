@@ -1,0 +1,9 @@
+{
+  "Finale": {
+    "perfix": "Finale",
+    "body": [
+      "*.bak\n*.db\n*.avi\n*.pdf\n*.ps\n*.mid\n*.midi\n*.mp3\n*.aif\n*.wav\n# Some versions of Finale have a bug and randomly save extra copies of\n# the music source as \"<Filename> copy.mus\"\n*copy.mus\n"
+    ],
+    "description": "Finale Gitignore Templat"
+  }
+}

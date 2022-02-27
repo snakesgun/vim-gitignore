@@ -1,0 +1,9 @@
+{
+  "TurboGears2": {
+    "perfix": "TurboGears2",
+    "body": [
+      "*.py[co]\n\n# Default development database\ndevdata.db\n\n# Default data directory\ndata/*\n\n# Packages\n*.egg\n*.egg-info\ndist\nbuild\n\n# Installer logs\npip-log.txt\n\n# Unit test / coverage reports\n.coverage\n.tox\n"
+    ],
+    "description": "TurboGears2 Gitignore Templat"
+  }
+}

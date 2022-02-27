@@ -1,0 +1,9 @@
+{
+  "SBT": {
+    "perfix": "SBT",
+    "body": [
+      "# Simple Build Tool\n# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control\n\ndist/*\ntarget/\nlib_managed/\nsrc_managed/\nproject/boot/\nproject/plugins/project/\n.history\n.cache\n.lib/\n"
+    ],
+    "description": "SBT Gitignore Templat"
+  }
+}

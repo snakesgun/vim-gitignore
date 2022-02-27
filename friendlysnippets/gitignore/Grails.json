@@ -1,0 +1,9 @@
+{
+  "Grails": {
+    "perfix": "Grails",
+    "body": [
+      "# .gitignore for Grails 1.2 and 1.3\n# Although this should work for most versions of grails, it is\n# suggested that you use the \"grails integrate-with --git\" command\n# to generate your .gitignore file.\n\n# web application files\n/web-app/WEB-INF/classes\n\n# default HSQL database files for production mode\n/prodDb.*\n\n# general HSQL database files\n*Db.properties\n*Db.script\n\n# logs\n/stacktrace.log\n/test/reports\n/logs\n\n# project release file\n/*.war\n\n# plugin release files\n/*.zip\n/plugin.xml\n\n# older plugin install locations\n/plugins\n/web-app/plugins\n\n# \"temporary\" build files\n/target\n"
+    ],
+    "description": "Grails Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "ZendFramework": {
+    "perfix": "ZendFramework",
+    "body": [
+      "# Composer files\ncomposer.phar\nvendor/\n\n# Local configs\nconfig/autoload/*.local.php\n\n# Binary gettext files\n*.mo\n\n# Data\ndata/logs/\ndata/cache/\ndata/sessions/\ndata/tmp/\ntemp/\n\n#Doctrine 2\ndata/DoctrineORMModule/Proxy/\ndata/DoctrineORMModule/cache/\n\n# Legacy ZF1\ndemos/\nextras/documentation\n"
+    ],
+    "description": "ZendFramework Gitignore Templat"
+  }
+}

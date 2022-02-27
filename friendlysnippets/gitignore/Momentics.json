@@ -1,0 +1,9 @@
+{
+  "Momentics": {
+    "perfix": "Momentics",
+    "body": [
+      "# Built files\nx86/\narm/\narm-p/\ntranslations/*.qm\n\n# IDE settings\n.settings/\n"
+    ],
+    "description": "Momentics Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Kohana": {
+    "perfix": "Kohana",
+    "body": [
+      "application/cache/*\napplication/logs/*\n"
+    ],
+    "description": "Kohana Gitignore Templat"
+  }
+}

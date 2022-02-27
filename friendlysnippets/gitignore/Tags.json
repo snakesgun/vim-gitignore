@@ -1,0 +1,9 @@
+{
+  "Tags": {
+    "perfix": "Tags",
+    "body": [
+      "# Ignore tags created by etags, ctags, gtags (GNU global) and cscope\nTAGS\n.TAGS\n!TAGS/\ntags\n.tags\n!tags/\ngtags.files\nGTAGS\nGRTAGS\nGPATH\nGSYMS\ncscope.files\ncscope.out\ncscope.in.out\ncscope.po.out\n\n"
+    ],
+    "description": "Tags Gitignore Templat"
+  }
+}

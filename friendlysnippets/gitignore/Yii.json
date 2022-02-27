@@ -1,0 +1,9 @@
+{
+  "Yii": {
+    "perfix": "Yii",
+    "body": [
+      "assets/*\n!assets/.gitignore\nprotected/runtime/*\n!protected/runtime/.gitignore\nprotected/data/*.db\nthemes/classic/views/\n"
+    ],
+    "description": "Yii Gitignore Templat"
+  }
+}

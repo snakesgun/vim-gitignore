@@ -1,0 +1,9 @@
+{
+  "Racket": {
+    "perfix": "Racket",
+    "body": [
+      ".DS_Store\ncompiled/\n/doc/\n*~\n*.bak\n\\#*\n.\\#*\n"
+    ],
+    "description": "Racket Gitignore Templat"
+  }
+}

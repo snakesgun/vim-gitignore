@@ -1,0 +1,9 @@
+{
+  "Xojo": {
+    "perfix": "Xojo",
+    "body": [
+      "# Xojo (formerly REALbasic and Real Studio)\n\nBuilds*\n*.debug\n*.debug.app\nDebug*.exe\nDebug*/Debug*.exe\nDebug*/Debug*\\ Libs\n*.rbuistate\n*.xojo_uistate\n*.obsolete*\n"
+    ],
+    "description": "Xojo Gitignore Templat"
+  }
+}

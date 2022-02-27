@@ -1,0 +1,9 @@
+{
+  "SynopsysVCS": {
+    "perfix": "SynopsysVCS",
+    "body": [
+      "# Waveform formats\n*.vcd\n*.vpd\n*.evcd\n*.fsdb\n\n# Default name of the simulation executable.  A different name can be\n# specified with this switch (the associated daidir database name is\n# also taken from here):  -o <path>/<filename>\nsimv\n\n# Generated for Verilog and VHDL top configs\nsimv.daidir/\nsimv.db.dir/\n\n# Infrastructure necessary to co-simulate SystemC models with\n# Verilog/VHDL models.  An alternate directory may be specified with this\n# switch:  -Mdir=<directory_path>\ncsrc/\n\n# Log file - the following switch allows to specify the file that will be\n# used to write all messages from simulation:  -l <filename>\n*.log\n\n# Coverage results (generated with urg) and database location.  The\n# following switch can also be used:  urg -dir <coverage_directory>.vdb\nsimv.vdb/\nurgReport/\n\n# DVE and UCLI related files.\nDVEfiles/\nucli.key\n\n# When the design is elaborated for DirectC, the following file is created\n# with declarations for C/C++ functions.\nvc_hdrs.h\n"
+    ],
+    "description": "SynopsysVCS Gitignore Templat"
+  }
+}

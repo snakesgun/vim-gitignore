@@ -1,0 +1,9 @@
+{
+  "Symfony": {
+    "perfix": "Symfony",
+    "body": [
+      "# Cache and logs (Symfony2)\n/app/cache/*\n/app/logs/*\n!app/cache/.gitkeep\n!app/logs/.gitkeep\n\n# Email spool folder\n/app/spool/*\n\n# Cache, session files and logs (Symfony3)\n/var/cache/*\n/var/logs/*\n/var/sessions/*\n!var/cache/.gitkeep\n!var/logs/.gitkeep\n!var/sessions/.gitkeep\n\n# Logs (Symfony4)\n/var/log/*\n!var/log/.gitkeep\n\n# Parameters\n/app/config/parameters.yml\n/app/config/parameters.ini\n\n# Managed by Composer\n/app/bootstrap.php.cache\n/var/bootstrap.php.cache\n/bin/*\n!bin/console\n!bin/symfony_requirements\n/vendor/\n\n# Assets and user uploads\n/web/bundles/\n/web/uploads/\n\n# PHPUnit\n/app/phpunit.xml\n/phpunit.xml\n\n# Build data\n/build/\n\n# Composer PHAR\n/composer.phar\n\n# Backup entities generated with doctrine:generate:entities command\n**/Entity/*~\n\n# Embedded web-server pid file\n/.web-server-pid\n"
+    ],
+    "description": "Symfony Gitignore Templat"
+  }
+}

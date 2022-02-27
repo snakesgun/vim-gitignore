@@ -1,0 +1,9 @@
+{
+  "Yeoman": {
+    "perfix": "Yeoman",
+    "body": [
+      "node_modules/\nbower_components/\n*.log\n\nbuild/\ndist/\n"
+    ],
+    "description": "Yeoman Gitignore Templat"
+  }
+}

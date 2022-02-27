@@ -1,0 +1,9 @@
+{
+  "DartEditor": {
+    "perfix": "DartEditor",
+    "body": [
+      ".project\n.buildlog\n"
+    ],
+    "description": "DartEditor Gitignore Templat"
+  }
+}

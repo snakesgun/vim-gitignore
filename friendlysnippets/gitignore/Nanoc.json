@@ -1,0 +1,9 @@
+{
+  "Nanoc": {
+    "perfix": "Nanoc",
+    "body": [
+      "# For projects using Nanoc (http://nanoc.ws/)\n\n# Default location for output (needs to match output_dir's value found in nanoc.yaml)\noutput/\n\n# Temporary file directory\ntmp/nanoc/\n\n# Crash Log\ncrash.log\n"
+    ],
+    "description": "Nanoc Gitignore Templat"
+  }
+}

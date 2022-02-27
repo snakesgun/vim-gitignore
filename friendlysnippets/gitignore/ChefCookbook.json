@@ -1,0 +1,9 @@
+{
+  "ChefCookbook": {
+    "perfix": "ChefCookbook",
+    "body": [
+      ".vagrant\n/cookbooks\n\n# Bundler\nbin/*\n.bundle/*\n\n.kitchen/\n.kitchen.local.yml\n"
+    ],
+    "description": "ChefCookbook Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Images": {
+    "perfix": "Images",
+    "body": [
+      "# JPEG\n*.jpg\n*.jpeg\n*.jpe\n*.jif\n*.jfif\n*.jfi\n\n# JPEG 2000\n*.jp2\n*.j2k\n*.jpf\n*.jpx\n*.jpm\n*.mj2\n\n# JPEG XR\n*.jxr\n*.hdp\n*.wdp\n\n# Graphics Interchange Format\n*.gif\n\n# RAW\n*.raw\n\n# Web P\n*.webp\n\n# Portable Network Graphics\n*.png\n\n# Animated Portable Network Graphics\n*.apng\n\n# Multiple-image Network Graphics\n*.mng\n\n# Tagged Image File Format\n*.tiff\n*.tif\n\n# Scalable Vector Graphics\n*.svg\n*.svgz\n\n# Portable Document Format\n*.pdf\n\n# X BitMap\n*.xbm\n\n# BMP\n*.bmp\n*.dib\n\n# ICO\n*.ico\n\n# 3D Images\n*.3dm\n*.max\n"
+    ],
+    "description": "Images Gitignore Templat"
+  }
+}

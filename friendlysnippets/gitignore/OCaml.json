@@ -1,0 +1,9 @@
+{
+  "OCaml": {
+    "perfix": "OCaml",
+    "body": [
+      "*.annot\n*.cmo\n*.cma\n*.cmi\n*.a\n*.o\n*.cmx\n*.cmxs\n*.cmxa\n\n# ocamlbuild working directory\n_build/\n\n# ocamlbuild targets\n*.byte\n*.native\n\n# oasis generated files\nsetup.data\nsetup.log\n\n# Merlin configuring file for Vim and Emacs\n.merlin\n\n# Dune generated files\n*.install\n\n# Local OPAM switch\n_opam/\n"
+    ],
+    "description": "OCaml Gitignore Templat"
+  }
+}

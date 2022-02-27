@@ -1,0 +1,9 @@
+{
+  "XilinxISE": {
+    "perfix": "XilinxISE",
+    "body": [
+      "# intermediate build files\n*.bgn\n*.bit\n*.bld\n*.cmd_log\n*.drc\n*.ll\n*.lso\n*.msd\n*.msk\n*.ncd\n*.ngc\n*.ngd\n*.ngr\n*.pad\n*.par\n*.pcf\n*.prj\n*.ptwx\n*.rbb\n*.rbd\n*.stx\n*.syr\n*.twr\n*.twx\n*.unroutes\n*.ut\n*.xpi\n*.xst\n*_bitgen.xwbt\n*_envsettings.html\n*_map.map\n*_map.mrp\n*_map.ngm\n*_map.xrpt\n*_ngdbuild.xrpt\n*_pad.csv\n*_pad.txt\n*_par.xrpt\n*_summary.html\n*_summary.xml\n*_usage.xml\n*_xst.xrpt\n\n# iMPACT generated files\n_impactbatch.log\nimpact.xsl\nimpact_impact.xwbt\nise_impact.cmd\nwebtalk_impact.xml\n\n# Core Generator generated files\nxaw2verilog.log\n\n# project-wide generated files\n*.gise\npar_usage_statistics.html\nusage_statistics_webtalk.html\nwebtalk.log\nwebtalk_pn.xml\n\n# generated folders\niseconfig/\nxlnx_auto_0_xdb/\nxst/\n_ngo/\n_xmsgs/\n"
+    ],
+    "description": "XilinxISE Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Gcov": {
+    "perfix": "Gcov",
+    "body": [
+      "# gcc coverage testing tool files\n\n*.gcno\n*.gcda\n*.gcov\n"
+    ],
+    "description": "Gcov Gitignore Templat"
+  }
+}

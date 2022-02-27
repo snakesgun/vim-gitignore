@@ -1,0 +1,9 @@
+{
+  "SlickEdit": {
+    "perfix": "SlickEdit",
+    "body": [
+      "# SlickEdit workspace and project files are ignored by default because\n# typically they are considered to be developer-specific and not part of a\n# project.\n*.vpw\n*.vpj\n\n# SlickEdit workspace history and tag files always contain user-specific\n# data so they should not be stored in a repository.\n*.vpwhistu\n*.vpwhist\n*.vtg\n"
+    ],
+    "description": "SlickEdit Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "SugarCRM": {
+    "perfix": "SugarCRM",
+    "body": [
+      "## SugarCRM\n# Ignore custom .htaccess stuff.\n/.htaccess\n# Ignore the cache directory completely.\n# This will break the current behaviour. Which was often leading to\n# the misuse of the repository as backup replacement.\n# For development the cache directory can be safely ignored and\n# therefore it is ignored.\n/cache/*\n!/cache/index.html\n# Ignore some files and directories from the custom directory.\n/custom/history/\n/custom/modulebuilder/\n/custom/working/\n/custom/modules/*/Ext/\n/custom/application/Ext/\n# Custom configuration should also be ignored.\n/config.php\n/config_override.php\n# The silent upgrade scripts aren't needed.\n/silentUpgrade*.php\n# Logs files can safely be ignored.\n*.log\n# Ignore the new upload directories.\n/upload/*\n!/upload/index.html\n/upload_backup/\n"
+    ],
+    "description": "SugarCRM Gitignore Templat"
+  }
+}

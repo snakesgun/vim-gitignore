@@ -1,0 +1,9 @@
+{
+  "Elisp": {
+    "perfix": "Elisp",
+    "body": [
+      "# Compiled\n*.elc\n\n# Packaging\n.cask\n\n# Backup files\n*~\n\n# Undo-tree save-files\n*.~undo-tree\n"
+    ],
+    "description": "Elisp Gitignore Templat"
+  }
+}

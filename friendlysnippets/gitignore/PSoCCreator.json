@@ -1,0 +1,9 @@
+{
+  "PSoCCreator": {
+    "perfix": "PSoCCreator",
+    "body": [
+      "# Project Settings\n*.cywrk.*\n*.cyprj.*\n\n# Generated Assets and Resources\nDebug/\nRelease/\nExport/\n*/codegentemp\n*/Generated_Source\n*_datasheet.pdf\n*_timing.html\n*.cycdx\n*.cyfit\n*.rpt\n*.svd\n*.log\n*.zip\n"
+    ],
+    "description": "PSoCCreator Gitignore Templat"
+  }
+}

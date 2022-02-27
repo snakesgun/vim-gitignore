@@ -1,0 +1,9 @@
+{
+  "Scrivener": {
+    "perfix": "Scrivener",
+    "body": [
+      "*/Files/binder.autosave\n*/Files/binder.backup\n*/Files/search.indexes\n*/Files/user.lock\n*/Files/Docs/docs.checksum\n*/Files/Data/docs.checksum\n*/QuickLook/\n*/Settings/ui.plist\n"
+    ],
+    "description": "Scrivener Gitignore Templat"
+  }
+}

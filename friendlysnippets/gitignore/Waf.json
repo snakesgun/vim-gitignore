@@ -1,0 +1,9 @@
+{
+  "Waf": {
+    "perfix": "Waf",
+    "body": [
+      "# For projects that use the Waf build system: https://waf.io/\n# Dot-hidden on Unix-like systems\n.waf-*-*/\n.waf3-*-*/\n# Hidden directory on Windows (no dot)\nwaf-*-*/\nwaf3-*-*/\n# Lockfile\n.lock-waf_*_build\n"
+    ],
+    "description": "Waf Gitignore Templat"
+  }
+}

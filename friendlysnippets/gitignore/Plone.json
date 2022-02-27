@@ -1,0 +1,9 @@
+{
+  "Plone": {
+    "perfix": "Plone",
+    "body": [
+      "*.pyc\n*.pyo\n*.tmp*\n*.mo\n*.egg\n*.EGG\n*.egg-info\n*.EGG-INFO\n.*.cfg\nbin/\nbuild/\ndevelop-eggs/\ndownloads/\neggs/\nfake-eggs/\nparts/\ndist/\nvar/\n"
+    ],
+    "description": "Plone Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "PureScript": {
+    "perfix": "PureScript",
+    "body": [
+      "# Dependencies\n.psci_modules\n.spago\nbower_components\nnode_modules\n\n# Generated files\n.psci\noutput\n"
+    ],
+    "description": "PureScript Gitignore Templat"
+  }
+}

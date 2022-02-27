@@ -1,0 +1,9 @@
+{
+  "Syncthing": {
+    "perfix": "Syncthing",
+    "body": [
+      "# Syncthing caches\n.stversions\n"
+    ],
+    "description": "Syncthing Gitignore Templat"
+  }
+}

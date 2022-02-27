@@ -1,0 +1,9 @@
+{
+  "Phalcon": {
+    "perfix": "Phalcon",
+    "body": [
+      "/cache/\n/config/development/\n"
+    ],
+    "description": "Phalcon Gitignore Templat"
+  }
+}

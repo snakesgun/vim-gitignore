@@ -1,0 +1,9 @@
+{
+  "WordPress": {
+    "perfix": "WordPress",
+    "body": [
+      "# Wordpress - ignore core, configuration, examples, uploads and logs.\n# https://github.com/github/gitignore/blob/main/WordPress.gitignore\n\n# Core\n#\n# Note: if you want to stage/commit WP core files\n# you can delete this whole section/until Configuration.\n/wp-admin/\n/wp-content/index.php\n/wp-content/languages\n/wp-content/plugins/index.php\n/wp-content/themes/index.php\n/wp-includes/\n/index.php\n/license.txt\n/readme.html\n/wp-*.php\n/xmlrpc.php\n\n# Configuration\nwp-config.php\n\n# Example themes\n/wp-content/themes/twenty*/\n\n# Example plugin\n/wp-content/plugins/hello.php\n\n# Uploads\n/wp-content/uploads/\n\n# Log files\n*.log\n\n# htaccess\n/.htaccess\n\n# All plugins\n#\n# Note: If you wish to whitelist plugins,\n# uncomment the next line\n#/wp-content/plugins\n\n# All themes\n#\n# Note: If you wish to whitelist themes,\n# uncomment the next line\n#/wp-content/themes"
+    ],
+    "description": "WordPress Gitignore Templat"
+  }
+}

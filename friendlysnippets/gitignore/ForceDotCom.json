@@ -1,0 +1,9 @@
+{
+  "ForceDotCom": {
+    "perfix": "ForceDotCom",
+    "body": [
+      ".project\n.settings\nsalesforce.schema\nReferenced Packages\n"
+    ],
+    "description": "ForceDotCom Gitignore Templat"
+  }
+}

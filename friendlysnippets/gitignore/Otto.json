@@ -1,0 +1,9 @@
+{
+  "Otto": {
+    "perfix": "Otto",
+    "body": [
+      ".otto/\n"
+    ],
+    "description": "Otto Gitignore Templat"
+  }
+}

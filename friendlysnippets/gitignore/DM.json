@@ -1,0 +1,9 @@
+{
+  "DM": {
+    "perfix": "DM",
+    "body": [
+      "*.dmb\n*.rsc\n*.int\n*.lk\n*.zip\n"
+    ],
+    "description": "DM Gitignore Templat"
+  }
+}

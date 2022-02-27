@@ -1,0 +1,9 @@
+{
+  "Leiningen": {
+    "perfix": "Leiningen",
+    "body": [
+      "pom.xml\npom.xml.asc\n*.jar\n*.class\n/lib/\n/classes/\n/target/\n/checkouts/\n.lein-deps-sum\n.lein-repl-history\n.lein-plugins/\n.lein-failures\n.nrepl-port\n.cpcache/\n"
+    ],
+    "description": "Leiningen Gitignore Templat"
+  }
+}

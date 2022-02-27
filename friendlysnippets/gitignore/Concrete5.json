@@ -1,0 +1,9 @@
+{
+  "Concrete5": {
+    "perfix": "Concrete5",
+    "body": [
+      "# ignore the error log and .htaccess and others\nerror_log\n.htaccess\n\n# concrete5 5.6 specific\n\nconfig/site.php\nfiles/cache/*\nfiles/tmp/*\n\n# concrete5 5.7 specific\n\n# ignore everything but the index.html\n/application/files/*\n!/application/files/index.html\n\n# ignore updates folder\n/updates/*\n\n# ignore sitemap.xml\n/sitemap.xml\n"
+    ],
+    "description": "Concrete5 Gitignore Templat"
+  }
+}

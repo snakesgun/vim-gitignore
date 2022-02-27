@@ -1,0 +1,9 @@
+{
+  "Ensime": {
+    "perfix": "Ensime",
+    "body": [
+      "# Ensime specific\n.ensime\n.ensime_cache/\n.ensime_lucene/\n"
+    ],
+    "description": "Ensime Gitignore Templat"
+  }
+}

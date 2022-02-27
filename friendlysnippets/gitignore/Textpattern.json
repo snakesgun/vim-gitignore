@@ -1,0 +1,9 @@
+{
+  "Textpattern": {
+    "perfix": "Textpattern",
+    "body": [
+      ".htaccess\ncss.php\nrpc/\nsites/site*/admin/\nsites/site*/private/\nsites/site*/public/admin/\nsites/site*/public/setup/\nsites/site*/public/theme/\ntextpattern/\nHISTORY.txt\nREADME.txt\n"
+    ],
+    "description": "Textpattern Gitignore Templat"
+  }
+}

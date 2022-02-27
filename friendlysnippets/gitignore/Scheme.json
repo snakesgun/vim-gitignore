@@ -1,0 +1,9 @@
+{
+  "Scheme": {
+    "perfix": "Scheme",
+    "body": [
+      "*.ss~\n*.ss#*\n.#*.ss\n\n*.scm~\n*.scm#*\n.#*.scm\n"
+    ],
+    "description": "Scheme Gitignore Templat"
+  }
+}

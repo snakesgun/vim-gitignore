@@ -1,0 +1,9 @@
+{
+  "Actionscript": {
+    "perfix": "Actionscript",
+    "body": [
+      "# Build and Release Folders\nbin-debug/\nbin-release/\n[Oo]bj/\n[Bb]in/\n\n# Other files and folders\n.settings/\n\n# Executables\n*.swf\n*.air\n*.ipa\n*.apk\n\n# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`\n# should NOT be excluded as they contain compiler settings and other important\n# information for Eclipse / Flash Builder.\n"
+    ],
+    "description": "Actionscript Gitignore Templat"
+  }
+}

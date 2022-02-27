@@ -1,0 +1,9 @@
+{
+  "LabVIEW": {
+    "perfix": "LabVIEW",
+    "body": [
+      "# Libraries\n*.lvlibp\n*.llb\n\n# Shared objects (inc. Windows DLLs)\n*.dll\n*.so\n*.so.*\n*.dylib\n\n# Executables\n*.exe\n\n# Metadata\n*.aliases\n*.lvlps\n.cache/\n"
+    ],
+    "description": "LabVIEW Gitignore Templat"
+  }
+}

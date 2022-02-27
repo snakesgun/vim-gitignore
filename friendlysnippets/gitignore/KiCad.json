@@ -1,0 +1,9 @@
+{
+  "KiCad": {
+    "perfix": "KiCad",
+    "body": [
+      "# For PCBs designed using KiCad: https://www.kicad.org/\n# Format documentation: https://kicad.org/help/file-formats/\n\n# Temporary files\n*.000\n*.bak\n*.bck\n*.kicad_pcb-bak\n*.kicad_sch-bak\n*-backups\n*.kicad_prl\n*.sch-bak\n*~\n_autosave-*\n*.tmp\n*-save.pro\n*-save.kicad_pcb\nfp-info-cache\n\n# Netlist files (exported from Eeschema)\n*.net\n\n# Autorouter files (exported from Pcbnew)\n*.dsn\n*.ses\n\n# Exported BOM files\n*.xml\n*.csv\n"
+    ],
+    "description": "KiCad Gitignore Templat"
+  }
+}

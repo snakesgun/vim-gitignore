@@ -1,0 +1,9 @@
+{
+  "Diff": {
+    "perfix": "Diff",
+    "body": [
+      "*.patch\n*.diff\n"
+    ],
+    "description": "Diff Gitignore Templat"
+  }
+}

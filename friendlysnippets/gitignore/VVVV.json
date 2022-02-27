@@ -1,0 +1,9 @@
+{
+  "VVVV": {
+    "perfix": "VVVV",
+    "body": [
+      "\n# .v4p backup files\n*~.xml\n\n# Dynamic plugins .dll\nbin/\n"
+    ],
+    "description": "VVVV Gitignore Templat"
+  }
+}

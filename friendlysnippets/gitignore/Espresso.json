@@ -1,0 +1,9 @@
+{
+  "Espresso": {
+    "perfix": "Espresso",
+    "body": [
+      "*.esproj\n"
+    ],
+    "description": "Espresso Gitignore Templat"
+  }
+}

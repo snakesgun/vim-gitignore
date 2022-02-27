@@ -1,0 +1,9 @@
+{
+  "Coq": {
+    "perfix": "Coq",
+    "body": [
+      ".*.aux\n.*.d\n*.a\n*.cma\n*.cmi\n*.cmo\n*.cmx\n*.cmxa\n*.cmxs\n*.glob\n*.ml.d\n*.ml4.d\n*.mlg.d\n*.mli.d\n*.mllib.d\n*.mlpack.d\n*.native\n*.o\n*.v.d\n*.vio\n*.vo\n*.vok\n*.vos\n.coq-native\n.csdp.cache\n.lia.cache\n.nia.cache\n.nlia.cache\n.nra.cache\ncsdp.cache\nlia.cache\nnia.cache\nnlia.cache\nnra.cache\nnative_compute_profile_*.data\n\n# generated timing files\n*.timing.diff\n*.v.after-timing\n*.v.before-timing\n*.v.timing\ntime-of-build-after.log\ntime-of-build-before.log\ntime-of-build-both.log\ntime-of-build-pretty.log\n"
+    ],
+    "description": "Coq Gitignore Templat"
+  }
+}

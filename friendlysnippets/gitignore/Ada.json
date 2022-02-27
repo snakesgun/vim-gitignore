@@ -1,0 +1,9 @@
+{
+  "Ada": {
+    "perfix": "Ada",
+    "body": [
+      "# Object file\n*.o\n\n# Ada Library Information\n*.ali\n"
+    ],
+    "description": "Ada Gitignore Templat"
+  }
+}

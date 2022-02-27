@@ -1,0 +1,9 @@
+{
+  "CFWheels": {
+    "perfix": "CFWheels",
+    "body": [
+      "# unpacked plugin folders\nplugins/**/*\n\n# files directory where uploads go\nfiles\n\n# DBMigrate plugin: generated SQL\ndb/sql\n\n# AssetBundler plugin: generated bundles\njavascripts/bundles\nstylesheets/bundles\n"
+    ],
+    "description": "CFWheels Gitignore Templat"
+  }
+}

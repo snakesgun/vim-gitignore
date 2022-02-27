@@ -1,0 +1,9 @@
+{
+  "Linux": {
+    "perfix": "Linux",
+    "body": [
+      "*~\n\n# temporary files which can be created if a process still has a handle open of a deleted file\n.fuse_hidden*\n\n# KDE directory preferences\n.directory\n\n# Linux trash folder which might appear on any partition or disk\n.Trash-*\n\n# .nfs files are created when an open file is removed but is still being accessed\n.nfs*\n"
+    ],
+    "description": "Linux Gitignore Templat"
+  }
+}

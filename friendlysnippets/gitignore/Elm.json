@@ -1,0 +1,9 @@
+{
+  "Elm": {
+    "perfix": "Elm",
+    "body": [
+      "# elm-package generated files\nelm-stuff\n# elm-repl generated files\nrepl-temp-*\n"
+    ],
+    "description": "Elm Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Stella": {
+    "perfix": "Stella",
+    "body": [
+      "# Atari 2600 (Stella) support for multiple assemblers\n# - DASM\n# - CC65\n\n# Assembled binaries and object directories\nobj/\na.out\n*.bin\n*.a26\n\n# Add in special Atari 7800-based binaries for good measure\n*.a78\n"
+    ],
+    "description": "Stella Gitignore Templat"
+  }
+}

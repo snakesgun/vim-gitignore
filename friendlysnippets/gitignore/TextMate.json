@@ -1,0 +1,9 @@
+{
+  "TextMate": {
+    "perfix": "TextMate",
+    "body": [
+      "*.tmproj\n*.tmproject\ntmtags\n"
+    ],
+    "description": "TextMate Gitignore Templat"
+  }
+}

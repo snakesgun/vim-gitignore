@@ -1,0 +1,9 @@
+{
+  "FlexBuilder": {
+    "perfix": "FlexBuilder",
+    "body": [
+      "bin/\nbin-debug/\nbin-release/\n"
+    ],
+    "description": "FlexBuilder Gitignore Templat"
+  }
+}

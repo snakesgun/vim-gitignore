@@ -1,0 +1,9 @@
+{
+  "Agda": {
+    "perfix": "Agda",
+    "body": [
+      "*.agdai\nMAlonzo/**\n"
+    ],
+    "description": "Agda Gitignore Templat"
+  }
+}

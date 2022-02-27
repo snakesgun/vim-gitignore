@@ -1,0 +1,9 @@
+{
+  "NotepadPP": {
+    "perfix": "NotepadPP",
+    "body": [
+      "# Notepad++ backups #\n*.bak\n"
+    ],
+    "description": "NotepadPP Gitignore Templat"
+  }
+}

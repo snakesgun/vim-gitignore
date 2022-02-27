@@ -1,0 +1,9 @@
+{
+  "Vagrant": {
+    "perfix": "Vagrant",
+    "body": [
+      "# General\n.vagrant/\n\n# Log files (if you are creating logs in debug mode, uncomment this)\n# *.log\n"
+    ],
+    "description": "Vagrant Gitignore Templat"
+  }
+}

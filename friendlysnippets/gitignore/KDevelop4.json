@@ -1,0 +1,9 @@
+{
+  "KDevelop4": {
+    "perfix": "KDevelop4",
+    "body": [
+      "*.kdev4\n.kdev4/\n"
+    ],
+    "description": "KDevelop4 Gitignore Templat"
+  }
+}

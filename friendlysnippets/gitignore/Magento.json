@@ -1,0 +1,9 @@
+{
+  "Magento": {
+    "perfix": "Magento",
+    "body": [
+      "#--------------------------#\n# Magento Default Files    #\n#--------------------------#\n\n/PATCH_*.sh\n\n/app/etc/local.xml\n\n/media/*\n!/media/.htaccess\n\n!/media/customer\n/media/customer/*\n!/media/customer/.htaccess\n\n!/media/dhl\n/media/dhl/*\n!/media/dhl/logo.jpg\n\n!/media/downloadable\n/media/downloadable/*\n!/media/downloadable/.htaccess\n\n!/media/xmlconnect\n/media/xmlconnect/*\n\n!/media/xmlconnect/custom\n/media/xmlconnect/custom/*\n!/media/xmlconnect/custom/ok.gif\n\n!/media/xmlconnect/original\n/media/xmlconnect/original/*\n!/media/xmlconnect/original/ok.gif\n\n!/media/xmlconnect/system\n/media/xmlconnect/system/*\n!/media/xmlconnect/system/ok.gif\n\n/var/*\n!/var/.htaccess\n\n!/var/package\n/var/package/*\n!/var/package/*.xml\n\n"
+    ],
+    "description": "Magento Gitignore Templat"
+  }
+}

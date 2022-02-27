@@ -1,0 +1,9 @@
+{
+  "ExpressionEngine": {
+    "perfix": "ExpressionEngine",
+    "body": [
+      ".DS_Store\n\n# Images\nimages/avatars/\nimages/captchas/\nimages/smileys/\nimages/member_photos/\nimages/signature_attachments/\nimages/pm_attachments/\n\n# For security do not publish the following files\nsystem/expressionengine/config/database.php\nsystem/expressionengine/config/config.php\n\n# Caches\nsized/\nthumbs/\n_thumbs/\n*/expressionengine/cache/*\n"
+    ],
+    "description": "ExpressionEngine Gitignore Templat"
+  }
+}

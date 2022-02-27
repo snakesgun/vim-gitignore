@@ -1,0 +1,9 @@
+{
+  "SketchUp": {
+    "perfix": "SketchUp",
+    "body": [
+      "*.skb\n"
+    ],
+    "description": "SketchUp Gitignore Templat"
+  }
+}

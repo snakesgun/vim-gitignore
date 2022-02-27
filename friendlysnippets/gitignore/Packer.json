@@ -1,0 +1,9 @@
+{
+  "Packer": {
+    "perfix": "Packer",
+    "body": [
+      "# Cache objects\npacker_cache/\n\n# Crash log\ncrash.log\n\n# https://www.packer.io/guides/hcl/variables\n# Exclude all .pkrvars.hcl files, which are likely to contain sensitive data, \n# such as password, private keys, and other secrets. These should not be part of \n# version control as they are data points which are potentially sensitive and \n# subject to change depending on the environment.\n#\n*.pkrvars.hcl\n\n# For built boxes\n*.box\n"
+    ],
+    "description": "Packer Gitignore Templat"
+  }
+}

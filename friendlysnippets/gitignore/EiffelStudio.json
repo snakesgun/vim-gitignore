@@ -1,0 +1,9 @@
+{
+  "EiffelStudio": {
+    "perfix": "EiffelStudio",
+    "body": [
+      "# The compilation directory\nEIFGENs\n"
+    ],
+    "description": "EiffelStudio Gitignore Templat"
+  }
+}

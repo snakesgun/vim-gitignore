@@ -1,0 +1,9 @@
+{
+  "Sdcc": {
+    "perfix": "Sdcc",
+    "body": [
+      "# SDCC stuff\n*.lnk\n*.lst\n*.map\n*.mem\n*.rel\n*.rst\n*.sym\n"
+    ],
+    "description": "Sdcc Gitignore Templat"
+  }
+}

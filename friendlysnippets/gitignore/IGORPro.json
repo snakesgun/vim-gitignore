@@ -1,0 +1,9 @@
+{
+  "IGORPro": {
+    "perfix": "IGORPro",
+    "body": [
+      "# Avoid including Experiment files: they can be created and edited locally to test the ipf files\n*.pxp\n*.pxt\n*.uxp\n*.uxt\n"
+    ],
+    "description": "IGORPro Gitignore Templat"
+  }
+}

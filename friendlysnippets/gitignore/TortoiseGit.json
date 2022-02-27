@@ -1,0 +1,9 @@
+{
+  "TortoiseGit": {
+    "perfix": "TortoiseGit",
+    "body": [
+      "# Project-level settings\n/.tgitconfig\n"
+    ],
+    "description": "TortoiseGit Gitignore Templat"
+  }
+}

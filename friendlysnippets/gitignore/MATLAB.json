@@ -1,0 +1,9 @@
+{
+  "MATLAB": {
+    "perfix": "MATLAB",
+    "body": [
+      "# Windows default autosave extension\n*.asv\n\n# OSX / *nix default autosave extension\n*.m~\n\n# Compiled MEX binaries (all platforms)\n*.mex*\n\n# Packaged app and toolbox files\n*.mlappinstall\n*.mltbx\n\n# Generated helpsearch folders\nhelpsearch*/\n\n# Simulink code generation folders\nslprj/\nsccprj/\n\n# Matlab code generation folders\ncodegen/\n\n# Simulink autosave extension\n*.autosave\n\n# Simulink cache files\n*.slxc\n\n# Octave session info\noctave-workspace\n"
+    ],
+    "description": "MATLAB Gitignore Templat"
+  }
+}

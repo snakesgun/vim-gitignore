@@ -1,0 +1,9 @@
+{
+  "SCons": {
+    "perfix": "SCons",
+    "body": [
+      "# for projects that use SCons for building: http://http://www.scons.org/\n.sconsign.dblite\n\n# When configure fails, SCons outputs these\nconfig.log\n.sconf_temp\n"
+    ],
+    "description": "SCons Gitignore Templat"
+  }
+}

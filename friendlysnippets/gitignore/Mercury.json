@@ -1,0 +1,9 @@
+{
+  "Mercury": {
+    "perfix": "Mercury",
+    "body": [
+      "Mercury/\nMercury.modules\n*.mh\n*.err\n*.init\n*.dll\n*.exe\n*.a\n*.so\n*.dylib\n*.beams\n*.d\n*.c_date\n"
+    ],
+    "description": "Mercury Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Scala": {
+    "perfix": "Scala",
+    "body": [
+      "*.class\n*.log\n\n# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\nhs_err_pid*\n"
+    ],
+    "description": "Scala Gitignore Templat"
+  }
+}

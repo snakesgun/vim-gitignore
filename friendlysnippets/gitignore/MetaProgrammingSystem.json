@@ -1,0 +1,9 @@
+{
+  "MetaProgrammingSystem": {
+    "perfix": "MetaProgrammingSystem",
+    "body": [
+      "workspace.xml\njunitvmwatcher*.properties\nbuild.properties\n\n# generated java classes and java source files\n#   manually add any custom artifacts that can't be generated from the models\n#   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git\nclasses_gen\nsource_gen\nsource_gen.caches\n\n# generated test code and test results\ntest_gen\ntest_gen.caches\nTEST-*.xml\njunit*.properties\n"
+    ],
+    "description": "MetaProgrammingSystem Gitignore Templat"
+  }
+}

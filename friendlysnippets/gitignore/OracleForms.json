@@ -1,0 +1,9 @@
+{
+  "OracleForms": {
+    "perfix": "OracleForms",
+    "body": [
+      "# Compiled Form Modules\n*.fmx\n\n# Compiled Menu Modules\n*.mmx\n\n# Compiled Pre-Linked Libraries\n*.plx\n"
+    ],
+    "description": "OracleForms Gitignore Templat"
+  }
+}

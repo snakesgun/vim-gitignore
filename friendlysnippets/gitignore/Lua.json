@@ -1,0 +1,9 @@
+{
+  "Lua": {
+    "perfix": "Lua",
+    "body": [
+      "# Compiled Lua sources\nluac.out\n\n# luarocks build files\n*.src.rock\n*.zip\n*.tar.gz\n\n# Object files\n*.o\n*.os\n*.ko\n*.obj\n*.elf\n\n# Precompiled Headers\n*.gch\n*.pch\n\n# Libraries\n*.lib\n*.a\n*.la\n*.lo\n*.def\n*.exp\n\n# Shared objects (inc. Windows DLLs)\n*.dll\n*.so\n*.so.*\n*.dylib\n\n# Executables\n*.exe\n*.out\n*.app\n*.i*86\n*.x86_64\n*.hex\n\n"
+    ],
+    "description": "Lua Gitignore Templat"
+  }
+}

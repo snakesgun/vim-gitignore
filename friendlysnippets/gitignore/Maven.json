@@ -1,0 +1,9 @@
+{
+  "Maven": {
+    "perfix": "Maven",
+    "body": [
+      "target/\npom.xml.tag\npom.xml.releaseBackup\npom.xml.versionsBackup\npom.xml.next\nrelease.properties\ndependency-reduced-pom.xml\nbuildNumber.properties\n.mvn/timing.properties\n# https://github.com/takari/maven-wrapper#usage-without-binary-jar\n.mvn/wrapper/maven-wrapper.jar\n\n# Eclipse m2e generated files\n# Eclipse Core\n.project\n# JDT-specific (Eclipse Java Development Tools)\n.classpath\n"
+    ],
+    "description": "Maven Gitignore Templat"
+  }
+}

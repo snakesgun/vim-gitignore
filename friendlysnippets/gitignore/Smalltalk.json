@@ -1,0 +1,9 @@
+{
+  "Smalltalk": {
+    "perfix": "Smalltalk",
+    "body": [
+      "# changes file\n*.changes\n*.chg\n\n# system image\n*.image\n*.img7\n*.img\n\n# Pharo Smalltalk Debug log file\nPharoDebug.log\n\n# Squeak Smalltalk Debug log file\nSqueakDebug.log\n\n# Dolphin Smalltalk source file\n*.sml\n\n# Dolphin Smalltalk error file\n*.errors\n\n# Monticello package cache\n/package-cache\n\n# playground cache\n/play-cache\n/play-stash\n\n# Metacello-github cache\n/github-cache\ngithub-*.zip\n"
+    ],
+    "description": "Smalltalk Gitignore Templat"
+  }
+}

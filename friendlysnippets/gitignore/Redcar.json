@@ -1,0 +1,9 @@
+{
+  "Redcar": {
+    "perfix": "Redcar",
+    "body": [
+      ".redcar\n"
+    ],
+    "description": "Redcar Gitignore Templat"
+  }
+}

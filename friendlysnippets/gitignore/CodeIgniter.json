@@ -1,0 +1,9 @@
+{
+  "CodeIgniter": {
+    "perfix": "CodeIgniter",
+    "body": [
+      "*/config/development\n*/logs/log-*.php\n!*/logs/index.html\n*/cache/*\n!system/cache/*\n!*/cache/index.html\n!*/cache/.htaccess\n\nuser_guide_src/build/*\nuser_guide_src/cilexer/build/*\nuser_guide_src/cilexer/dist/*\nuser_guide_src/cilexer/pycilexer.egg-info/*\n\n#codeigniter 3\napplication/logs/*\n!application/logs/index.html\n!application/logs/.htaccess\n/vendor/\n"
+    ],
+    "description": "CodeIgniter Gitignore Templat"
+  }
+}

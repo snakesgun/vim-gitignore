@@ -1,0 +1,9 @@
+{
+  "Godot": {
+    "perfix": "Godot",
+    "body": [
+      "# Godot-specific ignores\n.import/\nexport.cfg\nexport_presets.cfg\n\n# Imported translations (automatically generated from CSV files)\n*.translation\n\n# Mono-specific ignores\n.mono/\ndata_*/\n"
+    ],
+    "description": "Godot Gitignore Templat"
+  }
+}

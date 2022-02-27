@@ -1,0 +1,9 @@
+{
+  "Nim": {
+    "perfix": "Nim",
+    "body": [
+      "nimcache/\nnimblecache/\nhtmldocs/\n"
+    ],
+    "description": "Nim Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Fancy": {
+    "perfix": "Fancy",
+    "body": [
+      "*.rbc\n*.fyc\n"
+    ],
+    "description": "Fancy Gitignore Templat"
+  }
+}

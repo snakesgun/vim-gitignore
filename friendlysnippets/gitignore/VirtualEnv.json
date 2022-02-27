@@ -1,0 +1,9 @@
+{
+  "VirtualEnv": {
+    "perfix": "VirtualEnv",
+    "body": [
+      "# Virtualenv\n# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/\n.Python\n[Bb]in\n[Ii]nclude\n[Ll]ib\n[Ll]ib64\n[Ll]ocal\n[Ss]cripts\npyvenv.cfg\n.venv\npip-selfcheck.json\n"
+    ],
+    "description": "VirtualEnv Gitignore Templat"
+  }
+}

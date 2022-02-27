@@ -1,0 +1,9 @@
+{
+  "MicrosoftOffice": {
+    "perfix": "MicrosoftOffice",
+    "body": [
+      "*.tmp\n\n# Word temporary\n~$*.doc*\n\n# Word Auto Backup File\nBackup of *.doc*\n\n# Excel temporary\n~$*.xls*\n\n# Excel Backup File\n*.xlk\n\n# PowerPoint temporary\n~$*.ppt*\n\n# Visio autosave temporary files\n*.~vsd*\n"
+    ],
+    "description": "MicrosoftOffice Gitignore Templat"
+  }
+}

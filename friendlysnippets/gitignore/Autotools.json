@@ -1,0 +1,9 @@
+{
+  "Autotools": {
+    "perfix": "Autotools",
+    "body": [
+      "# http://www.gnu.org/software/automake\n\nMakefile.in\n/ar-lib\n/mdate-sh\n/py-compile\n/test-driver\n/ylwrap\n.deps/\n.dirstamp\n\n# http://www.gnu.org/software/autoconf\n\nautom4te.cache\n/autoscan.log\n/autoscan-*.log\n/aclocal.m4\n/compile\n/config.cache\n/config.guess\n/config.h.in\n/config.log\n/config.status\n/config.sub\n/configure\n/configure.scan\n/depcomp\n/install-sh\n/missing\n/stamp-h1\n\n# https://www.gnu.org/software/libtool/\n\n/ltmain.sh\n\n# http://www.gnu.org/software/texinfo\n\n/texinfo.tex\n\n# http://www.gnu.org/software/m4/\n\nm4/libtool.m4\nm4/ltoptions.m4\nm4/ltsugar.m4\nm4/ltversion.m4\nm4/lt~obsolete.m4\n\n# Generated Makefile\n# (meta build system like autotools,\n# can automatically generate from config.status script\n# (which is called by configure script))\nMakefile\n"
+    ],
+    "description": "Autotools Gitignore Templat"
+  }
+}

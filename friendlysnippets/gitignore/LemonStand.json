@@ -1,0 +1,9 @@
+{
+  "LemonStand": {
+    "perfix": "LemonStand",
+    "body": [
+      "boot.php\nindex.php\ninstall.php\n/config/*\n!/config/config.php\n/controllers/*\n/init/*\n/logs/*\n/phproad/*\n/temp/*\n/uploaded/*\n/installer_files/*\n/modules/backend/*\n/modules/blog/*\n/modules/cms/*\n/modules/core/*\n/modules/session/*\n/modules/shop/*\n/modules/system/*\n/modules/users/*\n# add content_*.php if you don't want erase client changes to content\n"
+    ],
+    "description": "LemonStand Gitignore Templat"
+  }
+}

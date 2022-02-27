@@ -1,0 +1,9 @@
+{
+  "Eagle": {
+    "perfix": "Eagle",
+    "body": [
+      "# Ignore list for Eagle, a PCB layout tool\n\n# Backup files\n*.s#?\n*.b#?\n*.l#?\n*.b$?\n*.s$?\n*.l$?\n\n# Eagle project file\n# It contains a serial number and references to the file structure\n# on your computer.\n# comment the following line if you want to have your project file included.\neagle.epf\n\n# Autorouter files\n*.pro\n*.job\n\n# CAM files\n*.$$$\n*.cmp\n*.ly2\n*.l15\n*.sol\n*.plc\n*.stc\n*.sts\n*.crc\n*.crs\n\n*.dri\n*.drl\n*.gpi\n*.pls\n*.ger\n*.xln\n\n*.drd\n*.drd.*\n\n*.s#*\n*.b#*\n\n*.info\n\n*.eps\n\n# file locks introduced since 7.x\n*.lck\n"
+    ],
+    "description": "Eagle Gitignore Templat"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "PlayFramework": {
+    "perfix": "PlayFramework",
+    "body": [
+      "# Ignore Play! working directory #\nbin/\n/db\n.eclipse\n/lib/\n/logs/\n/modules\n/project/project\n/project/target\n/target\ntmp/\ntest-result\nserver.pid\n*.eml\n/dist/\n.cache\n"
+    ],
+    "description": "PlayFramework Gitignore Templat"
+  }
+}

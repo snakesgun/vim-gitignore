@@ -1,0 +1,9 @@
+{
+  "Bazaar": {
+    "perfix": "Bazaar",
+    "body": [
+      ".bzr/\n.bzrignore\n"
+    ],
+    "description": "Bazaar Gitignore Templat"
+  }
+}

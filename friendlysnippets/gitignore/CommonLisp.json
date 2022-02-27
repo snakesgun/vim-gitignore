@@ -1,0 +1,9 @@
+{
+  "CommonLisp": {
+    "perfix": "CommonLisp",
+    "body": [
+      "*.FASL\n*.fasl\n*.lisp-temp\n*.dfsl\n*.pfsl\n*.d64fsl\n*.p64fsl\n*.lx64fsl\n*.lx32fsl\n*.dx64fsl\n*.dx32fsl\n*.fx64fsl\n*.fx32fsl\n*.sx64fsl\n*.sx32fsl\n*.wx64fsl\n*.wx32fsl\n"
+    ],
+    "description": "CommonLisp Gitignore Templat"
+  }
+}

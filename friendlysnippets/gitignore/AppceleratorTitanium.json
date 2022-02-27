@@ -1,0 +1,9 @@
+{
+  "AppceleratorTitanium": {
+    "perfix": "AppceleratorTitanium",
+    "body": [
+      "# Build folder and log file\nbuild/\nbuild.log\n"
+    ],
+    "description": "AppceleratorTitanium Gitignore Templat"
+  }
+}

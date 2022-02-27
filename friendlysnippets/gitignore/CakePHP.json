@@ -1,0 +1,9 @@
+{
+  "CakePHP": {
+    "perfix": "CakePHP",
+    "body": [
+      "# CakePHP 3\n\n/vendor/*\n/config/app.php\n\n/tmp/cache/models/*\n!/tmp/cache/models/empty\n/tmp/cache/persistent/*\n!/tmp/cache/persistent/empty\n/tmp/cache/views/*\n!/tmp/cache/views/empty\n/tmp/sessions/*\n!/tmp/sessions/empty\n/tmp/tests/*\n!/tmp/tests/empty\n\n/logs/*\n!/logs/empty\n\n# CakePHP 2\n\n/app/tmp/*\n/app/Config/core.php\n/app/Config/database.php\n/vendors/*\n"
+    ],
+    "description": "CakePHP Gitignore Templat"
+  }
+}

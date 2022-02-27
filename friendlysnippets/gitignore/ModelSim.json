@@ -1,0 +1,9 @@
+{
+  "ModelSim": {
+    "perfix": "ModelSim",
+    "body": [
+      "# ignore ModelSim generated files and directories (temp files and so on)\n[_@]*\n\n# ignore compilation output of ModelSim\n*.mti\n*.dat\n*.dbs\n*.psm\n*.bak\n*.cmp\n*.jpg\n*.html\n*.bsf\n\n# ignore simulation output of ModelSim\nwlf*\n*.wlf\n*.vstf\n*.ucdb\ncov*/\ntranscript*\nsc_dpiheader.h\nvsim.dbg\n"
+    ],
+    "description": "ModelSim Gitignore Templat"
+  }
+}

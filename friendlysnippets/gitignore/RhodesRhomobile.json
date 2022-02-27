@@ -1,0 +1,9 @@
+{
+  "RhodesRhomobile": {
+    "perfix": "RhodesRhomobile",
+    "body": [
+      "rholog-*\nsim-*\nbin/libs\nbin/RhoBundle\nbin/tmp\nbin/target\nbin/*.ap_\n*.o\n*.jar\n"
+    ],
+    "description": "RhodesRhomobile Gitignore Templat"
+  }
+}

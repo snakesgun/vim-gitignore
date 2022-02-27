@@ -1,0 +1,9 @@
+{
+  "AL": {
+    "perfix": "AL",
+    "body": [
+      ".vscode/*\n!.vscode/settings.json\n!.vscode/tasks.json\n!.vscode/launch.json\n!.vscode/extensions.json\n*.code-workspace\n\n# Local History for Visual Studio Code\n.history/\n*.app\n.snapshots/*\n"
+    ],
+    "description": "AL Gitignore Templat"
+  }
+}

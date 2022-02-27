@@ -1,0 +1,9 @@
+{
+  "Dropbox": {
+    "perfix": "Dropbox",
+    "body": [
+      "# Dropbox settings and caches\n.dropbox\n.dropbox.attr\n.dropbox.cache\n"
+    ],
+    "description": "Dropbox Gitignore Templat"
+  }
+}

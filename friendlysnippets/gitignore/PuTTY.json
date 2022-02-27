@@ -1,0 +1,9 @@
+{
+  "PuTTY": {
+    "perfix": "PuTTY",
+    "body": [
+      "# Private key\n*.ppk\n"
+    ],
+    "description": "PuTTY Gitignore Templat"
+  }
+}

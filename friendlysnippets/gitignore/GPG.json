@@ -1,0 +1,9 @@
+{
+  "GPG": {
+    "perfix": "GPG",
+    "body": [
+      "secring.*\n\n"
+    ],
+    "description": "GPG Gitignore Templat"
+  }
+}

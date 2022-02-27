@@ -1,0 +1,9 @@
+{
+  "Calabash": {
+    "perfix": "Calabash",
+    "body": [
+      "# Calabash / Cucumber\nrerun/\nreports/\nscreenshots/\nscreenshot*.png\ntest-servers/\n\n# bundler\n.bundle\nvendor\n"
+    ],
+    "description": "Calabash Gitignore Templat"
+  }
+}

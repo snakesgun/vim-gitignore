@@ -1,0 +1,9 @@
+{
+  "JEnv": {
+    "perfix": "JEnv",
+    "body": [
+      "# JEnv local Java version configuration file\n.java-version\n\n# Used by previous versions of JEnv\n.jenv-version\n"
+    ],
+    "description": "JEnv Gitignore Templat"
+  }
+}

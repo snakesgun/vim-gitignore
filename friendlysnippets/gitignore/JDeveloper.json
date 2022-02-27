@@ -1,0 +1,9 @@
+{
+  "JDeveloper": {
+    "perfix": "JDeveloper",
+    "body": [
+      "# default application storage directory used by the IDE Performance Cache feature\n.data/\n\n# used for ADF styles caching\ntemp/\n\n# default output directories\nclasses/\ndeploy/\njavadoc/\n\n# lock file, a part of Oracle Credential Store Framework\ncwallet.sso.lck"
+    ],
+    "description": "JDeveloper Gitignore Templat"
+  }
+}

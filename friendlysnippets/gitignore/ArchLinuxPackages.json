@@ -1,0 +1,9 @@
+{
+  "ArchLinuxPackages": {
+    "perfix": "ArchLinuxPackages",
+    "body": [
+      "*.tar\n*.tar.*\n*.jar\n*.exe\n*.msi\n*.zip\n*.tgz\n*.log\n*.log.*\n*.sig\n\npkg/\nsrc/\n"
+    ],
+    "description": "ArchLinuxPackages Gitignore Templat"
+  }
+}

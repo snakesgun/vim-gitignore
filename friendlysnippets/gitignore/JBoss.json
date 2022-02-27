@@ -1,0 +1,9 @@
+{
+  "JBoss": {
+    "perfix": "JBoss",
+    "body": [
+      "jboss/server/all/deploy/project.ext\njboss/server/default/deploy/project.ext\njboss/server/minimal/deploy/project.ext\njboss/server/all/log/*.log\njboss/server/all/tmp/**/*\njboss/server/all/data/**/*\njboss/server/all/work/**/*\njboss/server/default/log/*.log\njboss/server/default/tmp/**/*\njboss/server/default/data/**/*\njboss/server/default/work/**/*\njboss/server/minimal/log/*.log\njboss/server/minimal/tmp/**/*\njboss/server/minimal/data/**/*\njboss/server/minimal/work/**/*\n\n# deployed package files #\n\n*.DEPLOYED\n"
+    ],
+    "description": "JBoss Gitignore Templat"
+  }
+}

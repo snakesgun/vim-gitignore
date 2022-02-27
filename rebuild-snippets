@@ -26,6 +26,7 @@ repo_dir="$build_dir/$repo_dir_name"
 snipmate_dir="snippets/gitignore"
 neosnippets_dir="neosnippets/gitignore"
 ultisnips_dir="UltiSnips/gitignore"
+friendly_snippets_dir="friendlysnippets/gitignore"
 list_file="List.md"
 
 echo "*** Rebuilding started ***"
@@ -46,12 +47,14 @@ echo "removing old snippets directory if it exists"
 [[ -d "$ultisnips_dir" ]] && rm -rf $ultisnips_dir
 [[ -d "$snipmate_dir" ]] && rm -rf $snipmate_dir
 [[ -d "$neosnippets_dir" ]] && rm -rf $neosnippets_dir
+[[ -d "$friendly_snippets_dir" ]] && rm -rf $friendly_snippets_dir
 [[ -f "$list_file" ]] && rm $list_file
 
 echo "creating new snippets from gitignore files"
 mkdir -p $snipmate_dir
 mkdir -p $neosnippets_dir
 mkdir -p $ultisnips_dir
+mkdir -p $friendly_snippets_dir
 
 generate_snippets() {
     local source_dir=$1
@@ -61,25 +64,40 @@ generate_snippets() {
     for file in $source_dir/*.gitignore ; do
         local new_snippets_name="`basename "$file" .gitignore`"
         local new_snippets_file=$snippets_dir/$new_snippets_name.$snippets_ext
-        if [[ $snippets_dir = $ultisnips_dir ]]; then
-            echo "priority -50" > $new_snippets_file
-            echo "" >> $new_snippets_file
-            echo "snippet $new_snippets_name \"$new_snippets_name Gitignore Template\"" >> $new_snippets_file
+        if [[ $snippets_dir = $friendly_snippets_dir ]]; then
+            # echo $file
+            # echo {\"$new_snippets_name\":{\"perfix\": \"$new_snippets_name\", \"body\": [ > $new_snippets_file
+            # while read -r line ; do
+            #     echo -e "$snippets_tab$line$snippets_tab," >> $new_snippets_file
+            # done < $file
+            # sed '$ s/.$//' $new_snippets_file > $new_snippets_file+Templa
+            # echo
+            # mv $new_snippets_file+Templa $new_snippets_file
+            # echo ],\"description\": \"$new_snippets_name Gitignore Templat\"}} >> $new_snippets_file
+            # cat $new_snippets_file | jq --indent 2 '.' > $new_snippets_file+Templa
+            # mv $new_snippets_file+Templa $new_snippets_file
+            python3 friendlysnippets_builder.py $file $new_snippets_file --name $new_snippets_name
         else
-            echo "snippet $new_snippets_name Gitignore Template" > $new_snippets_file
-        fi
-        if [[ $snippets_ext = "snip" ]]; then
-            echo "abbr    $new_snippets_name" >> $new_snippets_file
-        fi
-        echo "$snippets_tab### $new_snippets_name ###" >> $new_snippets_file
-        while read -r line ; do
-            echo -e "$snippets_tab$line" >> $new_snippets_file
-        done < $file
-        if [[ $snippets_dir = $ultisnips_dir ]]; then
-            echo -e "$snippets_tab\$0" >> $new_snippets_file
-            echo "endsnippet" >> $new_snippets_file
-        else
-            echo -e "$snippets_tab\${0}" >> $new_snippets_file
+            if [[ $snippets_dir = $ultisnips_dir ]]; then
+                echo "priority -50" > $new_snippets_file
+                echo "" >> $new_snippets_file
+                echo "snippet $new_snippets_name \"$new_snippets_name Gitignore Template\"" >> $new_snippets_file
+            else
+                echo "snippet $new_snippets_name Gitignore Template" > $new_snippets_file
+            fi
+            if [[ $snippets_ext = "snip" ]]; then
+                echo "abbr    $new_snippets_name" >> $new_snippets_file
+            fi
+            echo "$snippets_tab### $new_snippets_name ###" >> $new_snippets_file
+            while read -r line ; do
+                echo -e "$snippets_tab$line" >> $new_snippets_file
+            done < $file
+            if [[ $snippets_dir = $ultisnips_dir ]]; then
+                echo -e "$snippets_tab\$0" >> $new_snippets_file
+                echo "endsnippet" >> $new_snippets_file
+            else
+                echo -e "$snippets_tab\${0}" >> $new_snippets_file
+            fi
         fi
     done
 }
@@ -105,6 +123,9 @@ echo "snipmate-snippets is successfully created"
 generate_snippets $repo_dir $ultisnips_dir "snippets" ""
 generate_snippets $repo_dir/Global $ultisnips_dir "snippets" ""
 echo "ultisnips-snippets is successfully created"
+generate_snippets $repo_dir $friendly_snippets_dir "json" "\""
+generate_snippets $repo_dir/Global $friendly_snippets_dir "json" "\""
+echo "friendly-snippets is successfully created"
 
 
 # }}}
